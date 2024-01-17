@@ -2,17 +2,17 @@
 
 ## Self-hosted vs SaaS
 
-Before you proceed we would like to remind you that we also offer Software as a Service platform called [Vendo](https://getvendo.com/?utm\_source=spree\_docs) which is essentialy Spree in the cloud, with [additional features](https://spreecommerce.org/spree-as-a-service/), global CDN, pre-built integrations without hosting headaches.&#x20;
+Before you proceed we would like to remind you that we also offer Software as a Service platform called [Vendo](https://getvendo.com/?utm_source=spree_docs) which is essentialy Spree in the cloud, with [additional features](https://spreecommerce.org/spree-as-a-service/), global CDN, pre-built integrations without hosting headaches.&#x20;
 
-![Vendo - Spree as a Service offerring](https://uploads-ssl.webflow.com/6230c485f2c32ea1b0daa438/62386b96518cdcbe111f134a\_OG%20Image%20\(2\).png)
+![Vendo - Spree as a Service offerring](<https://uploads-ssl.webflow.com/6230c485f2c32ea1b0daa438/62386b96518cdcbe111f134a_OG%20Image%20(2).png>)
 
-With [Vendo](https://getvendo.com/?utm\_source=spree\_docs), you just need to sign up and focus on your brand and storefront experience. The rest (hosting, maintanence, security, scaling) is handled by us.
+With [Vendo](https://getvendo.com/?utm_source=spree_docs), you just need to sign up and focus on your brand and storefront experience. The rest (hosting, maintenance, security, scaling) is handled by us.
 
 ## Prerequisites
 
 Before proceeding make sure you have [Docker Desktop](https://docs.docker.com/get-docker/) installed on your system. This is fairly straightforward but differs depending on which operating system you use.
 
-If you would like to add Spree to your existing Ruby on Rails application, please [follow this guide instead](../advanced/existing\_app\_tutorial.md) (for advanced users).
+If you would like to add Spree to your existing Ruby on Rails application, please [follow this guide instead](../advanced/existing_app_tutorial.md) (for advanced users).
 
 ### Windows
 
@@ -26,7 +26,7 @@ For the instructions on how to setup Spree with a dedicated CLI tool go to [this
 
 ### Manual installation
 
-1. Download [Spree Starter](https://github.com/spree/spree\_starter/archive/main.zip)
+1. Download [Spree Starter](https://github.com/spree/spree_starter/archive/main.zip)
 2. Unzip it
 3. Rename `spree_starter-main` directory as you please
 4. Run `bin/setup-docker` in said directory
@@ -57,6 +57,6 @@ The next thing you'll probably want to do is to log into the admin interface. Us
 
 Upon successful authentication, you should see the admin screen:
 
-![](../.gitbook/assets/admin\_panel\_978-2x.jpg)
+![](../.gitbook/assets/admin_panel_978-2x.jpg)
 
 Feel free to explore some of the Admin Panel features that Spree has to offer and to verify that your installation is working properly.
